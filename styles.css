@@ -114,6 +114,9 @@ main {
   margin: 5px 0;
 }
 
+.card_text {
+  text-align: center;
+}
 
 .card_btn {
   background-color: #9176ff;
