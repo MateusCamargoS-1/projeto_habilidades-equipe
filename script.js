@@ -3,20 +3,20 @@ document.addEventListener("DOMContentLoaded", function () {
     loop: true,
     loopedSlides: 10,
     autoplay: {
-      delay: 7000,
+      delay: 5000,
       disableOnInteraction: false,
     },
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 'auto',
     spaceBetween: 0,
-    effect: "coverflow",
-    coverflowEffect: {
-      rotate: 0,
-      stretch: 0,
-      depth: 300,
-      modifier: 1,
-      slideShadows: false,
+    effect: "cards",
+    cardsEffect: {
+      perSlideOffset: 8,
+      perSlideRotate: 2,
+      rotate: true,
+      // modifier: 1,
+      slideShadows: true,
     },
     pagination: {
       el: ".swiper-pagination",
